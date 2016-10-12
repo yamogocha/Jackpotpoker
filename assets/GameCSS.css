@@ -1,0 +1,390 @@
+.gameBG{
+    background-image:url("gameBG_iPad.png");
+    width:1024px;
+    height:768px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.player1{
+    background-image:url("playerA_iPad.png");
+    left: 71px;
+    top: 85px;
+}
+.player2{
+    background-image:url("playerB_iPad.png");
+    left:441px;
+    top: 31px;
+}
+.player3{
+    background-image:url("playerC_iPad.png");
+    left: 816px;
+    top: 85px;
+}
+.player4{
+    background-image:url("playerD_iPad.png");
+    left:289px;
+    top: 618px;
+}
+.avatar{
+    width:132px;
+    height:132px;
+    position:absolute;
+}
+
+.chips {
+    background-image: url("chips_iPad.png");
+    background-repeat-y:no-repeat;
+    position: absolute;
+    width:91px;
+    height:84px;
+    opacity:0;
+    top: -16px;
+    -webkit-animation:chipin .2s ease forwards;
+}
+.fivethousends{
+    left: -21px;
+    background-position:455px 50px;
+}
+.onethousend{
+    left:28px;
+    background-position:364px 70px;
+}
+.fivehundreds{
+    left:78px;
+    background-position:273px 70px;
+}
+.onehundred{
+    left:126px;
+    background-position:182px 70px;
+}
+
+.chipframe {
+    -webkit-mask: url(chipframe_iPad.png);
+    position: absolute;
+    width:196px;
+    height:68px;
+}
+.chipframe1{
+    left: 51px;
+    top: 296px;
+}
+.chipframe2{
+    left: 421px;
+    top: 246px;
+}
+.chipframe3{
+    left: 791px;
+    top: 296px;
+}
+.chipframe4{
+    
+    left: 493px;
+    top: 526px;
+}
+
+
+.chipframe5{
+    left: 732px;
+    top: 627px;
+}
+.actbet{
+    background-color: #189949;
+    position: absolute;
+    width:110px;
+    height:32px;
+    border-radius: 30px;
+    border: 1px solid #57be8c;
+    font-family: UtCdWG_l;
+    text-align: center;
+    line-height:37px;
+    font-size: 23px;
+    color: white;
+    width: 110px;
+    left:14px;
+    top:-60px;
+}
+.addbet{
+    -webkit-animation:addbet .2s linear forwards;
+}
+.actchip{
+    background-position-x: 182px;
+    top:37px;
+}
+.higher{
+    -webkit-animation:higher 3s linear;
+}
+.animchip{
+    background-position-x:280px;
+    left: 1px;
+    top: -55px;
+    -webkit-animation:movechip 1s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+.check{
+    background-image:url("check_iPad.png");
+    position:absolute;
+    width:156px;
+    height:86px;
+    left: 647px;
+    top: 640px;
+}
+.circle{
+    background-image:url("actioncircle_iPad.png");
+    left:826px;
+}
+.toucharea{
+    background-image:none;
+    height: 185px;
+    left: 825px;
+    top: 583px;
+}
+
+.bet{
+    background-color: #189949;
+    position: absolute;
+    width:110px;
+    height:32px;
+    border-radius: 30px;
+    border: 1px solid #57be8c;
+    font-family: UtCdWG_l;
+    text-align: center;
+    line-height:37px;
+    font-size: 23px;
+    color: white;
+    -webkit-transform-origin-y:0;
+    -webkit-transform:scale(0);
+    -webkit-animation:down .2s ease forwards;
+}
+.call{
+    background-color: #1093fc;
+    border-color:#08e0fa;
+}
+.raise{
+    background-color: #39f380;
+    color: #077a37;
+    border-color:#78f197;
+    box-shadow: 0px 0px 15px #a5fea5;
+}
+.allin{
+    background-color: #ffe407;
+    border-color:#fff59f;
+    color: #956c06;
+    box-shadow: 0px 0px 15px #f3ff07;
+}
+.bet1{
+    left:85px;
+    top: 258px;
+}
+.bet2{
+    left:453px;
+    top: 208px;
+}
+.bet3{
+    left:831px;
+    top: 258px;
+}
+.bet4{
+    width: 110px;
+    left: 668px;
+    top: 594px;
+}
+
+.blind{
+    font-family: Univers-Regular;
+    font-size:23px;
+    color:white;
+    position:absolute;
+    width: 118px;
+    text-align: center;
+    opacity:0;
+    -webkit-animation: appear 1s ease forwards;
+}
+.top1{
+    top:222px;
+}
+.top2{
+    top:171px;
+}
+.top3{
+    top:222px;
+}
+.top4{
+    top:560px;
+}
+
+.bank{
+    font-family: UtCdWG_l;
+    line-height:37px;
+    font-size: 22px;
+    color: white; 
+    width: 105px;
+    text-align: center;
+    position: absolute;
+}
+.bank1{
+    top: 173px;
+}
+.bank2{
+    top: 120px;
+}
+.bank3{
+    top: 173px;
+}
+.bank4{
+    left:303px;
+    top: 707px;
+}
+.pot{
+    left:481px;
+    top: 321px;
+    text-align:left;
+}
+ 
+.dealer{
+    background-image:url("dealer_iPad.png");
+    position:absolute;
+    width:39px;
+    height:32px;
+}
+.deal1{
+    left: 199px;
+    top: 583px;
+    -webkit-animation: deal1 .3s linear forwards;
+}
+.deal2{
+    left:-9px;
+    top: 300px;
+    -webkit-animation: deal2 .3s linear forwards;
+}
+.deal3{
+    left: 371px;
+    top: 215px;
+    -webkit-animation: deal3 .3s linear forwards;
+}
+.deal4{
+    left: 828px;
+    top: 307px;
+    -webkit-animation: deal4 .3s linear forwards;
+}
+
+.deck {
+    background-image: url("cards_iPad.png");
+    position: absolute;
+    width:91px;
+    height:126px;
+    top:410px;
+}
+.deck1{
+    left:273px;
+}
+.deck2{
+    left:372px;
+}
+.deck3{
+    left:468px;
+}
+.deck4{
+    left:565px;
+}
+.deck5{
+    left:662px;
+}
+
+.player1a{
+    top: 50px;
+    left: 148px;
+}
+.player1b{
+    top: 50px;
+    left:237px;
+}
+.player2a{
+    top: 0;
+    left: 486px;
+}
+.player2b{
+    top: 0;
+    left: 577px;
+}
+
+
+.player3a{
+    top: 50px;
+    left: 725px;
+}
+.player3b{
+    top: 50px;
+    left: 817px;
+}
+.player4a{
+    top: 605px;
+    left: 443px;
+}
+.player4b{
+    top: 605px;
+    left:533px;
+}
+
+@font-face {
+    font-family: Univers-Regular;
+    src: url(Univers-Regular.ttf);
+}
+
+@font-face {
+    font-family: UtCdWG_l;
+    src: url(UtCdWG_l.ttf);
+}
+
+@-webkit-keyframes appear {
+    2%, 95% {opacity:1;}
+}
+
+@-webkit-keyframes chipin {
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes down {
+    100% {-webkit-transform:scale(1);}
+}
+
+@-webkit-keyframes addbet {
+    95%, 99% {-webkit-transform:translate(-170px, -14px); opacity:1;}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes movechip {
+    20% {-webkit-transform: translateY(10px) rotate(25deg);}
+    30% {-webkit-transform: translateY(15px) rotate(-20deg);}
+    40%, 90% {-webkit-transform: translateY(20px) rotate(0deg);}
+}
+
+@-webkit-keyframes higher {
+    100% {top:659px;}
+}
+
+@-webkit-keyframes deal1 {
+/*    40% {-webkit-transform: translate(-96px, -132px);}
+    80% {-webkit-transform:translate(-143px, -244px);}
+    90% {-webkit-transform:translate(-143px, -291px);}*/
+    100% {-webkit-transform:translate(-182px, -333px);}
+}
+
+@-webkit-keyframes deal2 {
+/*    40% {-webkit-transform: translate(177px, -88px);}
+    80% {-webkit-transform:translate(277px, -48px);}
+    90% {-webkit-transform:translate(314px, -61px);}*/
+    100% {-webkit-transform:translate(386px, -43px);}
+}
+
+@-webkit-keyframes deal3 {
+/*    40% {-webkit-transform: translate(161px, -65px);}
+    80% {-webkit-transform:translate(288px, 35px);}
+    90% {-webkit-transform:translate(312px, -3px);}*/
+    100% {-webkit-transform:translate(377px, 50px);}
+}
+
+@-webkit-keyframes deal4 {
+/*    40% {-webkit-transform: translate(-239px, 44px);}*/
+    100% {-webkit-transform:translate(-581px, 326px);}
+}

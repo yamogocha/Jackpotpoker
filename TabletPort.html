@@ -1,0 +1,130 @@
+
+<!--Main Container that holds everything in an absolute position to hold everything in place in the UI-->
+<!--All html coding for your project should be done inside this "main-container"-->
+<!--Feel free to add to, delete or edit any or all of the html that is currently inside this container-->
+<!--Just be sure to keep the css that defines the styling for the "main-container"-->
+<div id="main-container">
+
+		<!--backgroundImage: all other gameplay elements are children of this div.-->
+		<div id="game-container" class="container">
+			<div class="gameBG">
+				<span id="player1" class="avatar player1"></span>
+				<span id="player2" class="avatar player2"></span>
+				<span id="player3" class="avatar player3"></span>
+				<span id="player4" class="avatar player4"></span>
+			</div>
+			
+			<div id="banks">
+				<span id="pot" class="pot bank">0</span> 
+				<span id="bank1" class="bet1 bank1 bank">25000</span>
+				<span id="bank2" class="bet2 bank2 bank">25000</span>
+				<span id="bank3" class="bet3 bank3 bank">25000</span>
+				<span id="bank4" class="bank4 bank">25000</span>
+			</div>
+
+			<div id="bets">
+				<span id="dealer" class="dealer deal2"></span>
+				<span id="bet1" class="bet1"></span>
+				<span id="bet2" class="bet2"></span>
+				<span id="bet3" class="bet3"></span>
+				<span id="bet4" class="bet4"></span>
+				<span id="blind1" class="bet1 top1 blind">Small Blind</span>
+				<span id="blind2" class="bet2 top2 blind">Big Blind</span>
+			</div>
+
+			<div id="playeract" style="display:none;">
+				<span id="circle" class="circle check"></span>
+				<span class="chipframe5 chipframe">
+					<span id="onehundred5" class="onehundred chips"></span>
+					<span id="animchip" class="animchip"></span>
+					<span id="actbet" class="actbet bet"></span>
+				</span>	
+				<span id="check" class=" " onClick="clickcheck();"></span>
+			</div>
+
+			<div id="chips">
+				<span class="chipframe1 chipframe">
+					<span id="fivethousends1" class="fivethousends chips"></span>
+					<span id="onethousend1" class="onethousend chips"></span>
+					<span id="fivehundreds1" class="fivehundreds chips"></span>
+					<span id="onehundred1" class="onehundred chips"></span>
+				</span>
+				<span class="chipframe2 chipframe">
+					<span id="fivethousends2" class="fivethousends chips"></span>
+					<span id="onethousend2" class="onethousend chips"></span>
+					<span id="fivehundreds2" class="fivehundreds chips"></span>
+					<span id="onehundred2" class="onehundred chips"></span>
+				</span>
+				<span class="chipframe3 chipframe">
+					<span id="fivethousends3" class="fivethousends chips"></span>
+					<span id="onethousend3" class="onethousend chips"></span>
+					<span id="fivehundreds3" class="fivehundreds chips"></span>
+					<span id="onehundred3" class="onehundred chips"></span>
+				</span>
+				<span class="chipframe4 chipframe">
+					<span id="fivethousends4" class="fivethousends chips"></span>
+					<span id="onethousend4" class="onethousend chips"></span>
+					<span id="fivehundreds4" class="fivehundreds chips"></span>
+					<span id="onehundred4" class="onehundred chips"></span>
+				</span>
+			</div>
+
+			<div id="cards">
+				<span id="card1" class="deck deck1"></span>
+				<span id="card2" class="deck deck2"></span>
+				<span id="card3" class="deck deck3"></span>
+				<span id="card4" class="deck deck4"></span>
+				<span id="card5" class="deck deck5"></span>
+
+				<span id="card6" class="deck player1a"></span>
+				<span id="card7" class="deck player1b"></span>
+				
+				<span id="card8" class="deck player2a"></span>
+				<span id="card9" class="deck player2b"></span>
+
+				<span id="card10" class="deck player3a"></span>
+				<span id="card11" class="deck player3b"></span>
+
+				<span id="card12" class="deck player4a"></span>
+				<span id="card13" class="deck player4b"></span>
+			</div>
+
+			<div id="panarea" class="check toucharea"></div>
+		</div>
+
+
+
+		<!-- OUTRO SPECIFIC HTML -->
+		<!--backgroundImage: all other outro elements are children of this div.-->
+		<div id="outro-container" class="container">
+
+			<!--Put all background animation (all animation that exists behind the buttons but in front of the background... ex: snow, rain, or bubbles) inside this empty div-->
+			<div id="animation-container">
+				<!-- uncomment the following code for midcore:
+				<div id="end-scenario"></div> -->
+			</div>
+
+			<!--ThanksForPlaying: we will assign a class and Id to be able to change it between screens-->
+			<div id="bottom-button">
+			</div>
+
+			<!--DLbutton: margin: auto; allows the button to be centered automatically!-->
+			<div id="top-button">
+			</div>
+
+			<!--mNectar Branding-->
+			<div id="mnectarbranding">
+			</div>
+
+			<!--ClickURL that sends the user to the landing page-->
+			<div id="dl-div" onclick="clickDownload();">
+			</div>
+		</div>
+
+</div>
+
+<link rel="stylesheet" href="assets/GameCSS.css">
+<link rel="stylesheet" href="assets/OutroCSS.css">
+<script src="assets/hammer.min.js"></script>
+<script src="assets/GameJS.js"></script>
+<script src="assets/OutroJS.js"></script>

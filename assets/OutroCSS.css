@@ -1,0 +1,107 @@
+/********** OUTRO SPECIFIC CSS **********/
+#main-container {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+}
+.container {
+	width: 1024px;
+	height: 768px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	background-color:white;
+}
+#outro-container {
+	background-image: url('BG_iPadPort.jpg');
+	background-size: 768px 1024px;
+	display: none;
+}
+#animation-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#mnectarbranding {
+	background-image: url('mNectarBrand_768x52.png');
+	width: 768px;
+	height: 52px;
+	top: 964px;
+	position: absolute;
+}
+/*function that defines the animation to be called later. It also defines the parameters and animation deforms. 
+http://www.w3schools.com/css/css3_animations.asp*/
+@-webkit-keyframes pulse {
+	from {-webkit-transform: scale(.8);}
+	to {-webkit-transform: scale(1);}
+}
+/*The top position of the bottom botton is the same across each screen*/
+#bottom-button {
+	position: absolute;
+}
+#top-button {
+	width: 440px;
+	height: 152px;
+	position: absolute;
+	border-radius:15px;
+	left: 164px;
+	/*animation is called. This is in a very specific order. 1. animation name 2. duration 3. animation easing 4. delay 5. pattern*/
+	animation: pulse 1.5s ease-in-out infinite alternate;
+}
+.install-click-url {
+	position: absolute;
+	width: 768px;
+	height: 924px;
+	top: 100px;
+}
+.idle-click-url {
+	position: absolute;
+    width: 525px;
+    height: 173px;
+    left: 121px;
+    top: 333px;
+}
+.error-click-url {
+	position: absolute;
+	width: 330px;
+	height: 126px;
+    top: 525px;
+    left: 221px;
+}
+.install-idle {
+	background-image: url('CTA_iPadPort.jpg');
+	top: 350px;
+}
+.install-dl {
+	background-image: url('CTA_iPadPort.jpg');
+	top: 350px;
+}
+/*The thanks will be removed for a midcore game:*/
+.install-thanks {
+	width: 387px;
+	height: 40px;
+	background-image: url('Thanks_iPadPort.png');
+    left: 191px;
+    top: 243px;
+}
+.idle-retry {
+	width: 328px;
+	height: 181px;
+	border-radius:15px;
+	background-image: url('IdleRetry_iPadPort.jpg');
+	left: 222px;
+	top: 530px;
+}
+.error-dl {
+	width: 331px;
+	height: 115px;
+	border-radius:15px;
+	background-image: url('DLerror_iPadPort.jpg');
+	left: 222px;
+	top: 530px;
+}
+.error-retry {
+	background-image: url('ErrorRetry_iPadPort.jpg');
+	top: 350px;
+}
+/********** OUTRO SPECIFIC CSS **********/
